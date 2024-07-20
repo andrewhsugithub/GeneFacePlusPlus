@@ -30,7 +30,7 @@ mim install mmcv==2.1.0 # use mim to speed up installation for mmcv
 
 # other dependencies
 sudo apt-get install libasound2-dev portaudio19-dev
-pip install -r docs/prepare_env/requirements.txt -v
+pip install -r docs/prepare_env/requirements.txt -v --use-deprecated=legacy-resolver
 
 # build torch-ngp
 bash docs/prepare_env/install_ext.sh 
