@@ -21,7 +21,7 @@ trimesh
 kornia==0.5.0
 PyMCubes
 lpips
-setuptools==65.5.1
+setuptools==70.0.0
 ffmpeg-python
 moviepy==1.0.3
 dearpygui
@@ -72,4 +72,4 @@ setproctitle
 
 # Gradio GUI
 httpx==0.23.3
-gradio==4.16.0
+gradio==5.0.0
